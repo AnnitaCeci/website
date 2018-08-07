@@ -1,0 +1,133 @@
+@font-face {
+  font-family: Exolight; 
+  src: url("../css/Exo/Exo-Light.otf") format("opentype");
+}
+body{
+	font-family: "Exolight";
+}
+
+.datyra_template{
+    background:url("../images/datyra_border.png");
+    background-repeat: no-repeat;
+ 
+}
+
+.one_half{   
+    background:url("../images/landing_image.png");
+
+    height: 798px;
+    padding-top: 50px;
+}
+
+
+
+.two_half {
+	height: 798px;
+    padding-top:75px;
+}
+
+.nav-bar-page {
+	padding-right: 0px;
+    padding-left: 0px;
+}
+
+.requirement {
+	width: 100%;
+	height: 3700px;
+	background-color:#f9faff;
+	}
+
+.requirement_steps {
+	text-align: center;
+	vertical-align: middle;
+	margin: 70px 0;
+
+}
+
+
+h1{
+	font-size: 32px;
+	font-weight: bold;
+	color: #fff;
+}
+
+h2{
+	font-size: 28px;
+	text-align: center;
+	color: #633e84;
+}
+
+.wtext{
+    font-size: 16px;
+	color: #fff;
+}
+
+.ptext{
+	font-size: 14px;
+	color: #b2404f;
+	text-align: center;
+}
+
+.navbar{
+ background:#FFFF;
+}
+.nav-link , .navbar-brand{
+ color: #633e84;
+ cursor: pointer;
+}
+.nav-link{
+ margin-right: 1em !important;
+}
+.nav-link:hover{
+ background: #f4f4f4;
+ color: #f97300;
+}
+.navbar-collapse{
+ justify-content: flex-end;
+}
+.navbar-toggler{
+  background:#fff !important;
+}
+
+.main-head-text {
+	margin: 70px auto;
+}
+
+.vertical {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+.vertical2 {	  
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.r_background {
+    background-color: #633e84;
+}
+
+    .google-maps {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+    }
+    .google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    }
+
+
+
