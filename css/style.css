@@ -1,0 +1,16 @@
+body{
+	background: #c7c7c7;
+	padding: 1em;
+}
+
+.row{
+	height: 200px;
+	border: 1px solid: #777;
+
+}
+div[class|="col"] {
+	border: 1px solid: #ddd;
+	background: #fff;
+	text-align: center;
+	padding: 1em;
+}
