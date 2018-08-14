@@ -80,6 +80,11 @@ h2{
 .navbar{
  background:#FFFF;
 }
+
+.navbar-nav{
+color: #633e84;
+}
+
 .nav-link , .navbar-brand{
  color: #633e84;
  cursor: pointer;
@@ -93,6 +98,7 @@ h2{
 }
 .navbar-collapse{
  justify-content: flex-end;
+  display: flex;
 }
 .navbar-toggler{
   background:#fff !important;
