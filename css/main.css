@@ -6,12 +6,24 @@ body{
 	font-family: "Exolight";
 }
 
+body{
+background: url(imagen.png) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+
 footer {
   background-color: #FFC107;
   color: #333;  
 }
 
 .img{
+    width: 100%;
+    height: auto;
+    margin-left: 10px;    
     position: absolute;
 }
 
@@ -162,7 +174,7 @@ color: #633e84;
 }
 
 .btn-purple{
-    letter-spacing: 4px;
+    letter-spacing: 3px;
   background: #633e84; 
   border-color: #633e84;
   color: white;
@@ -173,6 +185,17 @@ color: #633e84;
   width: 190px;    
 }
 
+.btn-wpurple{
+  letter-spacing: 4px;
+  background: white; 
+  border-color: #633e84;
+  color: #633e84;
+  font-weight: bold;
+  font-size: 12px;
+  border-style: solid;
+  height: 50px;
+  width: 200px;    
+}
 
 .order-sm-12 img {
   border:5px solid orange;
