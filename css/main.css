@@ -26,6 +26,23 @@ footer {
     text-align: center;
 }
 
+h1{
+  font-size: 48px;
+  font-weight: bold;
+  color: #fff;
+}
+
+h2{
+  font-size: 44px;
+  color: #633e84;
+}
+
+h3{
+    font-size: 46px;
+    color: #633e84;
+}
+
+
 .img{
     width: 100%;
     height: auto;
@@ -52,13 +69,9 @@ footer {
 
 .two_half {
 	height: 798px;
-    padding-top:75px;
+  padding-top:75px;
 }
 
-.nav-bar-page {
-	padding-right: 0px;
-    padding-left: 0px;
-}
 
 .requirement {
 	width: 100%;
@@ -72,21 +85,9 @@ footer {
     height: 500px;
 }
 
-h1{
-	font-size: 48px;
-	font-weight: bold;
-	color: #fff;
-}
 
-h2{
-	font-size: 44px;
-	color: #633e84;
-}
 
-h3{
-    font-size: 46px;
-    color: #633e84;
-}
+/*text color*/
 
 .wtext{
     font-size: 16px;
@@ -99,9 +100,29 @@ h3{
 	text-align: center;
 }
 
-.navbar{
- background:#FFFF;
+/* footer styles*/
+
+.footer-link{
+ color: #b2404f;
+ font-size: 12px;
+ font-weight: bold;
+ letter-spacing: 3px;
+ text-align: center;
+ cursor: pointer;
+ margin-right: 3em !important;
 }
+
+/* nav styles */
+.nav-bar-page {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.nav-link:hover{
+ background: #f4f4f4;
+ color: #f97300;
+}
+
 
 .navbar-nav{
 color: #633e84;
@@ -111,9 +132,12 @@ color: #633e84;
  color: #633e84;
  cursor: pointer;
 }
+
+
 .nav-link{
  margin-right: 1em !important;
 }
+
 .nav-link:hover{
  background: #f4f4f4;
  color: #f97300;
@@ -129,6 +153,8 @@ color: #633e84;
 .main-head-text {
 	margin: 70px auto;
 }
+
+/* p aligns*/
 
 .vertical {
     text-align: center;
@@ -148,27 +174,10 @@ color: #633e84;
     transform: translateY(-50%);
 }
 
-.r_background {
-    background-color: #633e84;
-}
-
-    .google-maps {
-    position: relative;
-    padding-bottom: 75%; // This is the aspect ratio
-    height: 0;
-    overflow: hidden;
-    }
-    .google-maps iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100% !important;
-    height: 100% !important;
-    }
-
+/* button's styles */
 
 .btn-white{
-    letter-spacing: 4px;
+  letter-spacing: 4px;
   background: white; 
   border-color: white;
   color: #633e84;
@@ -180,7 +189,7 @@ color: #633e84;
 }
 
 .btn-purple{
-    letter-spacing: 3px;
+  letter-spacing: 3px;
   background: #633e84; 
   border-color: #633e84;
   color: white;
@@ -203,11 +212,32 @@ color: #633e84;
   width: 200px;    
 }
 
+    .google-maps {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+    }
+    .google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    }
+
+
+
 .order-sm-12 img {
   border:5px solid orange;
 }
 
 .order-sm-1 {
   border:5px solid blue;
+}
+
+/* others */
+.r_background {
+    background-color: #633e84;
 }
 
