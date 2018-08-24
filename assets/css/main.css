@@ -7,7 +7,7 @@ body{
 }
 
 body{
-background: url(imagen.png) no-repeat center center fixed;
+/*background: url(imagen.png) no-repeat center center fixed;*/
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -60,6 +60,7 @@ h3{
 
 .one_half{   
     background:url("../images/landing_image.png");
+    background-repeat: no-repeat;
     height: 798px;
     padding-top: 50px;
     background-position: left top;
@@ -68,7 +69,7 @@ h3{
 
 
 .two_half {
-	height: 798px;
+	height: 400px;
   padding-top:75px;
 }
 
@@ -253,3 +254,10 @@ color: #633e84;
     height: 0px;
     transition: border-bottom .3s, transform .3s;
   }
+
+  .ccont {
+    background-color: #fff;
+  padding: 20px;
+  -webkit-transition: background-color .3s, -webkit-transform .3s;
+    transition: background-color .3s, transform .3s;
+}
