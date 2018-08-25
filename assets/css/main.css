@@ -43,6 +43,11 @@ h3{
     color: #633e84;
 }
 
+h4{
+  font-size: 26px;
+  font-weight: bold;
+  color: #fff;
+}
 
 .img{
     width: 100%;
@@ -61,7 +66,7 @@ h3{
 
 .one_half{   
     background:url("../images/landing_image.png");
-    background-repeat: no-repeat;
+
     height: 798px;
     padding-top: 50px;
     background-position: left top;
