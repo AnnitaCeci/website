@@ -35,6 +35,7 @@ $('#quote-carousel').on('slide.bs.carousel', function (e) {
 $(function(){
   $("#nav-placeholder").load("/assets/navbar.html");
 });
+
    $(function(){
   $("#foot-placeholder").load("/assets/footer.html");
 });
