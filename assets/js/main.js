@@ -27,11 +27,25 @@ $('#quote-carousel').on('slide.bs.carousel', function (e) {
 });
 
 
-  $('#quote-carousel').carousel({ 
-  				pause:true
-                interval: 2000
-        });
+/// When the DOM is ready, run this function
 
+  //Set the carousel options
+
+
+$(function(){
+  $("#nav-placeholder").load("/assets/navbar.html");
+});
+   $(function(){
+  $("#foot-placeholder").load("/assets/footer.html");
+});
+ function myFunction() {
+       var x = document.getElementById("myTopnav");
+       if (x.className === "topnav") {
+           x.className += " responsive";
+       } else {
+           x.className = "topnav";
+       }
+   }
 
   $(document).ready(function() {
 /* show lightbox when clicking a thumbnail */
@@ -44,5 +58,11 @@ $('#quote-carousel').on('slide.bs.carousel', function (e) {
         content.html($(this).html());
         $(".modal-profile").modal({show:true});
     });
+      $('#quote-carousel').carousel({
+    pause: true,
+    interval: 4000,
+  });
 
+  
+ 
   });
