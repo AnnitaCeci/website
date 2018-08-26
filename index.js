@@ -29,7 +29,8 @@ http.createServer( function(req, res) {
 		".png": "image/png",
 		".woff": "application/font-woff",
 		".woff2": "application/font-woff2",
-		".otf": "application/font-otf"
+		".otf": "application/font-otf",
+		".0": "application/font-woff2"
 	};
 
 	var validMimeType = true;
