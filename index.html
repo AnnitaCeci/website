@@ -3,34 +3,32 @@
    <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>         
+ <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
       <!------ Include the above in your HEAD tag ---------->
-      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+      <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-grid.min.css">
+      <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-reboot.min.css">
+        <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+      <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+      
       <!-- Css styles -->
-      <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+       <link rel="stylesheet" type="text/css" href="assets/css/main.css">
       <script type="text/javascript" src="assets/js/main.js"></script>
-      <link rel="stylesheet" type="text/css" href="assets/css/main.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <!-- responsive devices styles -->
-      <link rel="stylesheet" media="screen" href="css/responsive-leyouts.css" type="text/css" />
    </head>
    <body>
-      <div class="container-fluid one_half" style="height: 600px;">
+      <div class="container-fluid one_half" ">
          <div id="nav-placeholder">
 
          </div>
-         <div class="row vertical2">
-            <div class="container">
+         <div class="row ">
+            <div class="container  "style="padding-top: 10vw;">
                <div class="row align-items-center justify-content-start">
-                  <div class=" col-10  align-self-center text-left">
+                  <div class=" col-md-5  align-self-center text-left">
                      <h1>DATA ANALYTICS</h1>
                      <p class="wtext">Datyra can provide you with an end to end solution for data collection and analysis.</p>
-                     <button class="btn btn-white btn-md">
+                     <button class="btn btn-white btn-md ptext2">
                      <span>CONTACT US</span>
                      </button>
                   </div>
@@ -41,33 +39,34 @@
       <!-- button section -->
       <section>
          <div class="container-fluid">
-            <div class="col-md-12">
+            
                <div class="two_half center-block ">
                   <h2 class="text-center"><strong>Services</strong></h2>
                   <p class="ptext"> WE BUILD TOP PRODUCTS WITH QUALITY SKILL </p>
-                  <div class="row mx-auto text-center ccont">
-                     <div class="col-1"></div>
-                     <div class="col-3 ">
+                  <br>
+                  <div class="row mx-auto text-center ccont ">
+                     <div class=" offset-sm-2 col-sm-8 d-inline-flex "style="width: 60%;">
+                     <div class="flex-col-4 ">
                         <img  src="assets/images/button-service.png" >
-                        <p class="ptext" style="font-weight: bold;">ANALYTICS</p>
+                        <p class="ptext2" style="font-weight: bold;">ANALYTICS</p>
                         <p class="gtext">Big Data <br/>
                            Machine Learning <br/>
                            Data Science <br/>
                            Algorithms
                         </p>
                      </div>
-                     <div class="col-3 ">
+                     <div class="flex-col-4 container ">
                         <img src="assets/images/button-service.png" >
-                        <p class="ptext" style="font-weight: bold;">SOFTWARE</p>
+                        <p class="ptext2" style="font-weight: bold;">SOFTWARE</p>
                         <p class="gtext">Prototyping <br/>
                            User EXperience <br/>
                            Programming <br/>
                            Deployment
                         </p>
                      </div>
-                     <div class="col-4 "s>
+                     <div class="flex-col-4 "s>
                         <img src="assets/images/button-service.png">
-                        <p class="ptext" style="font-weight: bold;">HARDWARE</p>
+                        <p class="ptext2" style="font-weight: bold;">HARDWARE</p>
                         <p class="gtext">Custom Endpoint Systems <br/>
                            Sensor Integration <br>
                            Communication Networks <br/>
@@ -75,12 +74,14 @@
                         </p>
                      </div>
                   </div>
+                </div>
                </div>
-            </div>
+           
          </div>
       </section>
       <!--How we work section-->
       <section>
+
          <div class="row ">
             <div class="col-md-12">
                <h2 class="vertical-center text-center main-head-text"> <strong>How We Work</strong></h2>
@@ -151,14 +152,14 @@
       </section>
       <!-- call to action section -->
       <section>
-         <div class="container-fluid datyra_template shadow-md p-4 mb-4  " style="height: 400px; height: 50%;">
+         <div class=" container-fluid datyra_template shadow-md p-4 mb-4  " style=" height: 50%;">
             <div class="row">
                <div class="container ">
                   <div class="row align-items-center justify-content-start" style="height: 460px;">
-                     <div class="col-7 align-self-down text-left">
+                     <div class="offset-md-1 col-md-7 align-self-down text-left">
                         <h3 style="color: #d27a4f;"><strong>Call to Action</strong></h3>
                         <p>At half-past eight the door opened, the policeman appeared, and, requesting them to follow him, led the way to and adjoining hall. It was evidently a cort-room.</p>
-                        <button class="btn btn-lg btn-purple"  "><strong>CONTACT  US</strong></button>
+                        <button class="btn btn-lg btn-purple "  "><strong>CONTACT  US</strong></button>
                      </div>
                   </div>
                </div>
@@ -172,7 +173,7 @@
             <h2 > <strong>Customer Stories</strong></h2>
             <p class="ptext">At half-past eigth the door opened the policeman appeared requesting them to follow <br> him led the way to an adjoining hall.</p>
          </div>
-         <div class="row">
+         <div class="flex-row">
             <div class="offset-md-3 col-lg-5  center-block "">
                <div class="carousel slide" data-ride="carousel" id="quote-carousel">
                   <!-- Bottom Carousel Indicators -->
@@ -192,7 +193,7 @@
                            </div>
                            <div class="col-md text-center">
                               <img class="rounded-circle" src="http://www.reactiongifs.com/r/overbite.gif"
-                                 style="width: 100px;height:100px;">
+                                 style="max-width: 100px;max-height:100px;">
                               <!--<img class="rounded-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/kolage/128.jpg"
                                  style="width: 100px;height:100px;">-->
                            </div>
@@ -207,7 +208,7 @@
                            </div>
                            <div class="col-md text-center">
                               <img class="rounded-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/mijustin/128.jpg"
-                                 style="width: 100px;height:100px;">
+                                 style="max-width: 100px;max-height:100px;">
                            </div>
                         </div>
                      </div>
@@ -220,7 +221,7 @@
                            </div>
                            <div class="col-md text-center">
                               <img class="rounded-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/keizgoesboom/128.jpg"
-                                 style="width: 100px;height:100px;">
+                                 style="max-width: 100px;max-height:100px;">
                            </div>
                         </div>
                      </div>
@@ -236,16 +237,16 @@
             <div class="col-2 align-items-self-center"> 
             </div>
             <div class="col-2">
-               <img  src="assets/images/mini-default.png" > 
+               <img  src="assets/images/mini-default.png" class="img-fluid"> 
             </div>
             <div class="col-2">
-               <img  src="assets/images/mini-default.png" > 
+               <img  src="assets/images/mini-default.png" class="img-fluid"> 
             </div>
             <div class="col-2">
-               <img  src="assets/images/mini-default.png" > 
+               <img  src="assets/images/mini-default.png" class="img-fluid"> 
             </div>
             <div class="col-2">
-               <img  src="assets/images/mini-default.png" > 
+               <img  src="assets/images/mini-default.png" class="img-fluid"> 
             </div>
             <div class="col-2">      
             </div>
