@@ -30,7 +30,8 @@ http.createServer( function(req, res) {
 		".woff": "application/font-woff",
 		".woff2": "application/font-woff2",
 		".otf": "application/font-otf",
-		".map": "application/map"
+		".map": "application/map",
+		".ico": "image/ico"
 	};
 
 	var validMimeType = true;

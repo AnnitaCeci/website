@@ -48,6 +48,10 @@ footer {
       
       
     }
+
+.one_half{   
+    min-height: 40vw;
+  }
 }
 h1{
   
@@ -71,22 +75,36 @@ h4{
   color: #fff;
 }
 
+video {
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 90%;
+  z-index: -5;
+   
+   object-fit:cover; 
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+
+}
 
 
 .datyra_template{
-    background-image:url("../images/datyra_border.png");
+  background-image:url("../images/datyra_border.png");
    background-size: contain;
     background-repeat: no-repeat;
     background-position: right bottom;
    
+   
 }
 
 .one_half{   
-    background:url("../images/landing_image.png");
-
-     background-size: contain;
-    min-height: 60vw;
-    background-position: left top;
+  
+position: relative;
+  overflow: hidden;
 }
 
 /*about*/
@@ -123,7 +141,7 @@ text-align: center;
 
 }
 .regular-padding-bottom{
-  padding-bottom: : 10vw;
+  padding-bottom:  10vw;
 
 }
 .p-padding{
@@ -189,7 +207,7 @@ text-align: center;
   padding-top: 10px;
 }
 .footer-link{
- color: #b2404f;
+ color: white;
  font-size: 12px;
  font-weight: bold;
  letter-spacing: 3px;
@@ -202,7 +220,7 @@ text-align: center;
 .nav-bar-page {
   padding-right: 0px;
   padding-left: 0px;
-  
+  z-index: 2;
 }
 
 .nav-link:hover{
@@ -217,6 +235,7 @@ text-align: center;
 .navbar-nav{
 color: #633e84;
 border-left: 0;
+z-index: 5;
 }
 
 .nav-link , .navbar-brand{
@@ -237,6 +256,7 @@ border-left: 0;
 
 .navbar-toggler{
   background:#fff !important;
+
 }
 
 .main-head-text {
@@ -433,31 +453,40 @@ h4{
   font-weight: bold;
   
 }
+
+.one_half{   
+    min-height: 80vw;}
     
 }
+
 
 /* Small devices (tablets, up to 768px) */
-@media (max-width: 768px) { 
+@media (max-width: 767px) { 
 
-  h1{
-  font-size: 40px;
- 
-}
+    h1{
+    font-size: 40px;
+   
+      }
 
-h2{
-  font-size: 36px;
+    h2{
+      font-size: 36px;
 
-}
+    }
 
-h3{
-    font-size: 38px;
-    
-}
-h4{
-  font-size: 18px;
-  
-}
-    
+    h3{
+        font-size: 38px;
+        
+    }
+    h4{
+      font-size: 18px;
+      
+    }
+
+
+    .one_half{   
+        min-height: 100vw;
+      }
+      
     /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
     
     #quote-carousel .carousel-indicators {
@@ -477,6 +506,12 @@ h4{
     }
 }
 
+
+@media (max-width: 360px) {
+    .one_half{   
+        height: 140vw;}
+  }
+
 /* override position and transform in 3.3.x */
 .carousel-inner .item.left.active {
   transform: translateX(-33%);
@@ -486,10 +521,10 @@ h4{
 }
 
 .carousel-inner .item.next {
-  transform: translateX(33%)
+  transform: translateX(33%);
 }
 .carousel-inner .item.prev {
-  transform: translateX(-33%)
+  transform: translateX(-33%);
 }
 
 .carousel-inner .item.right,
