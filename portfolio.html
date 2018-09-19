@@ -2,14 +2,13 @@
 <html lang="en">
    <head>
       <meta name="viewport" content="width=device-width, initial-scale=1">
-   <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+      <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
       <!------ Include the above in your HEAD tag ---------->
       <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-        <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
       <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-      
       <!-- Css styles -->
-       <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/main.css">
       <script type="text/javascript" src="assets/js/main.js"></script>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <!-- responsive devices styles -->
@@ -17,9 +16,8 @@
    <body>
       <section>
          <div class="container-fluid shadow-lg datyra_template portfolio-first-container">
-             <div id="nav-placeholder">
-
-         </div>
+            <div id="nav-placeholder">
+            </div>
             <div class="row regular-padding-bottom">
                <div class="container p-padding regular-padding-bottom">
                   <div class="row align-items-center justify-content-start regular-padding-bottom" >
@@ -31,7 +29,6 @@
                </div>
             </div>
          </div>
-
       </section>
       <br>
       <section>
@@ -42,11 +39,11 @@
                      <p  style="color: #b2404f;"><strong>EXCLUSIVE</strong></p>
                      <h3 style="color: #633e84;"><strong>Nam dapibus nisl vitae elit fringilla </strong></h3>
                      <p class="gtext">At half-past eight the door opened, the policeman appeared, and, requesting them to follow him, led the way to and adjoining hall.</p>
-                     <button type="button" id="submit" name="submit" class="btn btn-wpurple btn-lg center">VIEW PROJECT</button>
+                     <button type="button" class="btn btn-wpurple btn-lg center " data-toggle="modal" data-target="#modal1">VIEW PROJECT</button>
+                   
                   </div>
                </div>
                <div class="col-md-6  portfolio-img">
-
                   <img src="assets/images/cel.png" class="img-fluid">          
                </div>
             </div>
@@ -56,7 +53,7 @@
                      <p  style="color: #b2404f;"><strong>EXCLUSIVE</strong></p>
                      <h3 style="color: #633e84; font-weight: bold;"><strong>Mauris non tempor quam, et lacinia </strong></h3>
                      <p class="gtext">At half-past eight the door opened, the policeman appeared, and, requesting them to follow him, led the way to and adjoining hall.</p>
-                     <button type="button" id="submit" name="submit" class="btn btn-wpurple btn-lg center">VIEW PROJECT</button>
+                     <button type="button" id="submit" name="submit" class="btn btn-wpurple btn-lg center" data-toggle="modal" data-target="#modal2">VIEW PROJECT</button>
                   </div>
                </div>
                <div class="col-xs-12 regular-padding col-md-6 align-items-self-start"> 
@@ -69,7 +66,7 @@
                      <p  style="color: #b2404f;"><strong>EXCLUSIVE</strong></p>
                      <h3 style="color: #633e84;"><strong>Fusce vehicula dolor arcu, sit amet </strong></h3>
                      <p class="gtext" >At half-past eight the door opened, the policeman appeared, and, requesting them to follow him, led the way to and adjoining hall.</p>
-                     <button type="button" id="submit" name="submit" class="btn btn-wpurple btn-lg center">VIEW PROJECT</button>
+                     <button type="button" id="submit" name="submit" class="btn btn-wpurple btn-lg center" data-toggle="modal" data-target="#modal3">VIEW PROJECT</button>
                   </div>
                </div>
                <div class="col-xs-12 col-md-6 align-items-self-end">
@@ -81,6 +78,93 @@
    </body>
    <br>
    <div id="foot-placeholder">
+   </div>
 
+<!-- The Modal -->
+<div class="modal fade" id="modal1">
+   <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+         <!-- Modal Header -->
+         <div class="modal-header">
+            <h4 class="modal-title" style="color: #633e84;"><strong>Nam dapibus nisl vitae elit fringilla </strong></h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
          </div>
+         <!-- Modal body -->
+         <div class="modal-body">
+            <div class= "row flex-md-row align-items-center">
+               <div class="col-md-6 center">
+                  <img src="assets/images/cel.png" class="img-fluid">          
+               </div>
+               <div class="col-md-6 text-left">
+                  <p class="gtext">At half-past eight the door opened, the policeman appeared, and, requesting them to follow him, led the way to and adjoining hall. At half-past eight the door opened, the policeman appeared, and, requesting them to follow him, led the way to and adjoining hall. At half-past eight the door opened, the policeman appeared, and, requesting them to follow him, led the way to and adjoining hall.</p>
+               </div>
+            </div>
+         </div>
+         <!-- Modal footer -->
+         <div class="modal-footer">
+            <button type="button" class="btn btn-purplemodal" data-dismiss="modal">Close</button>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- end modal -->
+
+<!-- The Modal -->
+<div class="modal fade" id="modal2">
+   <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+         <!-- Modal Header -->
+         <div class="modal-header">
+            <h4 class="modal-title" style="color: #633e84;"><strong>Mauris non tempor quam, et lacinia  </strong></h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+         </div>
+         <!-- Modal body -->
+         <div class="modal-body">
+            <div class= "row flex-md-row align-items-center">
+               <div class="col-md-6 center">
+                  <img src="assets/images/default2.png" class="img-fluid">           
+               </div>
+               <div class="col-md-6 text-left">
+                  <p class="gtext">At half-past eight the door opened, the policeman appeared, and, requesting them to follow him, led the way to and adjoining hall. At half-past eight the door opened, the policeman appeared, and, requesting them to follow him, led the way to and adjoining hall. At half-past eight the door opened, the policeman appeared, and, requesting them to follow him, led the way to and adjoining hall.</p>
+               </div>
+            </div>
+         </div>
+         <!-- Modal footer -->
+         <div class="modal-footer">
+            <button type="button" class="btn btn-purplemodal" data-dismiss="modal">Close</button>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- end modal -->
+
+<!-- The Modal -->
+<div class="modal fade" id="modal3">
+   <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+         <!-- Modal Header -->
+         <div class="modal-header">
+            <h4 class="modal-title" style="color: #633e84;"><strong>Fusce vehicula dolor arcu, sit amet </strong></h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+         </div>
+         <!-- Modal body -->
+         <div class="modal-body">
+            <div class= "row flex-md-row align-items-center">
+               <div class="col-md-6 center">
+                <img src="assets/images/default2.png" class="img-fluid">      
+               </div>
+               <div class="col-md-6 text-left">
+                  <p class="gtext">At half-past eight the door opened, the policeman appeared, and, requesting them to follow him, led the way to and adjoining hall. At half-past eight the door opened, the policeman appeared, and, requesting them to follow him, led the way to and adjoining hall. At half-past eight the door opened, the policeman appeared, and, requesting them to follow him, led the way to and adjoining hall.</p>
+               </div>
+            </div>
+         </div>
+         <!-- Modal footer -->
+         <div class="modal-footer">
+            <button type="button" class="btn btn-purplemodal" data-dismiss="modal">Close</button>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- end modal -->
+
 </html>
