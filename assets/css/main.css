@@ -81,22 +81,29 @@ h4{
   color: #fff;
 }
 
-video {
+/*.video-container {
   position: absolute;
-  top:0;
-  left:0;
+  top: 0;
+  bottom: 0;
   width: 100%;
-  
-  z-index: -5;
-   
-   object-fit:cover; 
-    overflow: hidden;
-    overflow-x: hidden;
-    overflow-y: hidden;
+  height: 100%; 
+  overflow: hidden;
+}*/
+ video {
+  /* Make video to at least 100% wide and tall */
+  min-width: 100%; 
+  min-height: 100%; 
 
+  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+  width: auto;
+  height: auto;
 
+  /* Center the video */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
-
 
 .datyra_template{
   background-image:url("../images/datyra_border.png");
