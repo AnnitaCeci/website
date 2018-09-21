@@ -31,7 +31,8 @@ http.createServer( function(req, res) {
 		".woff2": "application/font-woff2",
 		".otf": "application/font-otf",
 		".map": "application/map",
-		".ico": "image/ico"
+		".ico": "image/ico",
+		".mp4": "video/mp4"
 	};
 
 	var validMimeType = true;
