@@ -33,11 +33,11 @@ $('#quote-carousel').on('slide.bs.carousel', function (e) {
 
 
 $(function(){
-  $("#nav-placeholder").load("/website/assets/navbar.html");
+  $("#nav-placeholder").load("assets/navbar.html");
 });
 
    $(function(){
-  $("#foot-placeholder").load("/website/assets/footer.html");
+  $("#foot-placeholder").load("assets/footer.html");
 });
  function myFunction() {
        var x = document.getElementById("myTopnav");
