@@ -16,7 +16,6 @@ http.createServer( function(req, res) {
 
 	var now = new Date();
 
-
 	var filename = req.url || "/index.html";
 	var ext = path.extname(filename);
 	var localPath = __dirname;
@@ -33,7 +32,7 @@ http.createServer( function(req, res) {
 		".otf": "application/font-otf",
 		".map": "application/map",
 		".ico": "image/ico",
-		".mp4": "video/mp4",
+		".mp4": "video/mp4"
 	};
 
 	var validMimeType = true;
@@ -57,18 +56,6 @@ http.createServer( function(req, res) {
 
 	} else {
 		console.log("Invalid file extension detected: " + ext + " (" + filename + ")")
-		console.log("Trying index.html: " )
-		localPath += filename + "index.html";
-		fs.exists(localPath, function(exists) {
-			if(exists) {
-				console.log("Serving file: " + localPath);
-				getFile(localPath, res,"text/html");
-			} else {
-				console.log("File not found: " + localPath);
-				res.writeHead(404);
-				res.end();
-			}
-		});
 	}
 
 }).listen(port, serverUrl);
@@ -88,4 +75,3 @@ function getFile(localPath, res, mimeType) {
 		}
 	});
 }
-
