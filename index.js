@@ -4,13 +4,13 @@
 
 var port = 3001;
 var serverUrl = "127.0.0.1";
-
+var nodemailer = require('nodemailer');
 var http = require("http");
 var path = require("path");
 var fs = require("fs");
 var checkMimeType = true;
 
-console.log("Starting web server at " + serverUrl + ":" + port);
+console.log("Starting Datyra server at " + serverUrl + ":" + port);
 
 http.createServer( function(req, res) {
 
