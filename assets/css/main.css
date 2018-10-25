@@ -123,6 +123,11 @@ text-align: center;
   padding-top: 5vw;
 }
 
+.img-padding{
+  padding-top: 1vw;
+  padding-bottom: 2vw;
+}
+
 .two_half {
 	min-height: 600px;
   padding-top:75px;
@@ -174,6 +179,30 @@ text-align: center;
   font-size: 12px;
   color: gray;
   text-align: center;
+}
+
+#number-background{
+  /* Style for "Background" */
+width: 1440px;
+height: 600px;
+
+}
+#bg-text{
+/* Style for "03" */
+width: 375px;
+height: 252px;
+opacity: 0.08;
+color: #646466;
+font-family: "Poppins Semi Bold";
+font-size: 180px;
+font-weight: 600;
+/* Text style for "0" */
+letter-spacing: 15px;
+}
+
+#number-content{
+    position:absolute;
+    z-index:1;
 }
 
 /* footer styles*/
@@ -320,6 +349,23 @@ z-index: 5;
 .btn-wpurple:hover{
   background: #633e84;
   color: white;
+}
+
+.oval-img{
+  width: 315px;
+  height: 315px;
+  box-shadow: 0 2px 60px rgba(99, 62, 132, 0.3);
+  border-radius: 4px;
+  border: 10px solid #ffffff;
+  background-color: #000000;
+}
+
+.img-background{
+  width: 316px;
+height: 316px;
+box-shadow: 0 2px 60px rgba(99, 62, 132, 0.3);
+border-radius: 4px;
+background-color: #000000;
 }
 /*social btn*/
 .fa:hover{
@@ -549,5 +595,3 @@ h4{
     .one_half{   
         height: 140vw;}
   }
-
-
