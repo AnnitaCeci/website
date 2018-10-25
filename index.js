@@ -4,7 +4,7 @@
 
 var port = 3001;
 var serverUrl = "127.0.0.1";
-var nodemailer = require('nodemailer');
+//var nodemailer = require('nodemailer');
 var http = require("http");
 var path = require("path");
 var fs = require("fs");
